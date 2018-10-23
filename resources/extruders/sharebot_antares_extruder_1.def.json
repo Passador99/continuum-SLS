@@ -1,0 +1,17 @@
+{
+    "id": "sharebot_antares_extruder_1",
+    "version": 2,
+    "name": "Extruder 2",
+    "inherits": "fdmextruder",
+    "metadata": {
+        "machine": "sharebot_antares",
+        "position": "1",
+        "quality_definition": "sharebot_antares_extruder_1"
+    },
+
+    "overrides": {
+        "extruder_nr": { "default_value": 1 },
+        "machine_nozzle_size": { "default_value": 0.1 },
+        "material_diameter": { "default_value": 1.75 }
+    }
+}
